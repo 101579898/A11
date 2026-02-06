@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
             labels: ['2020', '2030', '2040', '2050'],
             datasets: [{
                 label: 'Global Waste Generation (Billion Tons)',
-                data: [2.0, 2.6, 3.0, 3.4],
+                data: [2.0, 2.6, 3.3, 3.4],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.8)',
                     'rgba(255, 150, 150, 0.8)',
