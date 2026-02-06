@@ -1,16 +1,27 @@
-header, body {
+header {
     text-align: center !important;
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header, body {
     margin: 0%;
-    padding: 0%;
+    padding: 0 18%;
 }
 
 body {
-    background-color: #ffc0cb;
+    background-color: #f5c5d0;
 }
 
 body, p {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
     line-height: 1.6;
 }   
 
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(139, 20, 82, 0.759);
+    margin-top: 20px;
+}

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             datasets: [{
                 label: 'Sample Data',
                 data: [12, 19, 3, 5],
-                backgroundColor: 'rgb(201, 0, 0)',
+                backgroundColor: 'rgb(254, 227, 227)',
                 borderColor: 'rgba(54, 162, 235, 1)',
                 borderWidth: 1
             }]
