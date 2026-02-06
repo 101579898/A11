@@ -1,4 +1,15 @@
-body {
-    /* CODE GOES HERE */
-    text-align: center !important;
-}
+/* Graph styles */
+#graph { background: #f8f9fa; border: 1px solid #ddd; display: block; }
+.edge { stroke: #888; stroke-width: 2; stroke-linecap: round; }
+.edge.highlight { stroke: #0d6efd; stroke-width: 3; }
+.node { fill: #ffffff; stroke: #0d6efd; stroke-width: 2; transition: fill .12s, r .12s; }
+.node.dim { opacity: 0.35; }
+.nodelabel { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-size: 14px; fill: #0b0b0b; pointer-events: none; }
+.node:hover { fill: #0d6efd22; }
+#graph-container { padding: 8px 0; }
+
+/* Ensure Chart.js canvas has a visible height inside responsive columns */
+#myChart { width: 100% !important; height: 200px !important; display: block; }
+
+
+
